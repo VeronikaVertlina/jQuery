@@ -34,3 +34,18 @@ $("h1").click(function() {
 $("button").click(function() {
   $("h1").css("color", "purple");
 });
+
+//---------Using Kewdown Elements
+$("input").keydown(function(event) {
+  $("h1").text(event.key);
+});
+
+//-------Detet for mouseover Events
+// $("h1").on("mouseover", function(){
+//   $("h1").css("color", "purple");
+// });
+
+//-------Or insted of On using click
+$("h1").on("click", function(){
+  $("h1").css("color", "purple");
+});
