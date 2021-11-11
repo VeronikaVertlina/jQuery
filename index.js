@@ -46,6 +46,17 @@ $("input").keydown(function(event) {
 // });
 
 //-------Or insted of On using click
-$("h1").on("click", function(){
-  $("h1").css("color", "purple");
+// $("h1").on("click", function(){
+//   $("h1").css("color", "purple");
+// });
+//
+// //---------Website Animation with jquery - hide(), show(), toggle(), fadeOut(), fadeIn(), fadeToggle()
+// //---------slideUp(), slideDown(), slideToggle()
+// $("button").on("click", function() {
+//   $("h1").slideToggle();
+// });
+
+//-------------animate() - opacity:0.5, margin:20, margin:"20%"
+$("button").on("click", function() {
+  $("h1").slideUp().slideDown().animate({opacity: 0.5});
 });
