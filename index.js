@@ -59,4 +59,4 @@ $("input").keydown(function(event) {
 //-------------animate() - opacity:0.5, margin:20, margin:"20%"
 $("button").on("click", function() {
   $("h1").slideUp().slideDown().animate({opacity: 0.5});
-});
+}); 
